@@ -33,3 +33,13 @@
 /////////////////////////////////////////////////////////////////////////
 
 //4. write program to get the current date
+
+// const formateDate = (date = new Date()) => {
+//   const days = String(date.getDate()).padStart(2, 0);
+//   const months = String(date.getMonth() + 1).padStart(2, 0);
+//   //   months is 0 based index in js and use string for padstart
+//   const years = date.getFullYear();
+//   return `${days}/${months}/${years}`;
+// };
+// console.log(formateDate());
+/////////////////////////////////////////////////////////////////////////
