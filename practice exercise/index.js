@@ -43,3 +43,9 @@
 // };
 // console.log(formateDate());
 /////////////////////////////////////////////////////////////////////////
+
+//5. write a javascrpt program to create a new string adding "New!" in front of a given string.
+//  If the given styring begins with New! already then return the original string.
+
+// const addNew = (str) => (str.indexOf("New!") === 0 ? str : `New! ${str}`);
+// console.log(addNew("New! offer"));
