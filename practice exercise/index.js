@@ -49,3 +49,7 @@
 
 // const addNew = (str) => (str.indexOf("New!") === 0 ? str : `New! ${str}`);
 // console.log(addNew("New! offer"));
+//////////////////////////////////////////////////////////////////////////
+
+//6. write a js to create a new string from a given string taking the first 3 char and the last 3 char
+// and add them together. the string length must be 3 or more, if not the og str is returned
