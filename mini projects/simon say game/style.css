@@ -2,6 +2,14 @@ body {
   text-align: center;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .btn {
   height: 200px;
   width: 200px;
@@ -26,4 +34,10 @@ body {
 }
 .purple {
   background-color: #c1cdff;
+}
+.flash {
+  background-color: white;
+}
+.userflash {
+  background-color: black;
 }
