@@ -140,7 +140,7 @@ function checkGameOver() {
       running = false;
       break;
   }
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 1; i < snake.length; i += 1) {
     if (snake[i].x == snake[0].x && snake[i].y == snake[0].y) {
       running = false;
     }
@@ -148,7 +148,7 @@ function checkGameOver() {
 }
 function displayGameOver() {
   ctx.font = "50px MV Boli";
-  ctx.fillStyle = "blaxk";
+  ctx.fillStyle = "black";
   ctx.textAlign = "center";
   ctx.fillText("Game Over!", gameWidth / 2, gameHeight / 2);
   running = false;
