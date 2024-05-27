@@ -1,5 +1,7 @@
 const gameBoard = document.querySelector("#gameBoard");
 const ctx = gameBoard.getContext("2d");
+// console.log(ctx);
+// this is build in api referance canvas object and to get it we use getcontext 2d
 const scoreText = document.querySelector("#scoreText");
 const resetBtn = document.querySelector("#resetBtn");
 const gameWidth = gameBoard.width;
