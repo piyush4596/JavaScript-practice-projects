@@ -14,3 +14,8 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`listining on post ${port}`);
 });
+
+app.get("/rolldice", (req, res) => {
+  let diceVal = Math.floor(Math.random() * 6) + 1;
+  res.render("rolldice.ejs", { diceVal });
+});
